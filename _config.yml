@@ -5,7 +5,7 @@ locale: en_US
 description: Research scientist in HPC & Deep Learning
 logo: site-logo.png
 search: false
-url: aryamazaheri.github.io
+# url: aryamazaheri.github.io
 
 # Jekyll configuration
 
