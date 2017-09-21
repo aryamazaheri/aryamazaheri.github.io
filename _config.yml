@@ -1,0 +1,59 @@
+# Site wide configuration
+
+title: Arya Mazaheri
+locale: en_US
+description: Research scientist in HPC & Deep Learning
+logo: site-logo.png
+search: false
+url: http://aryamazaheri.github.io
+
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+  - jekyll-gist
+  # - jekyll-feed
+
+kramdown:
+  input: GFM
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..2
+  enable_coderay: false
+
+mathjax: true
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", ".less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
+
+
+# Site owner
+owner:
+  name: Arya Mazaheri
+  avatar: bio-photo.jpg
+  email: mazaheri@cs.tu-darmstadt.de
+  disqus-shortname:
+  twitter: aryamazaheri
+  facebook: #username
+  github: aryamazaheri
+  stackexchange: https://stackoverflow.com/users/1211787/arya-mz
+  linkedin: arya-mazaheri
+  instagram: aryamazaheri
+  flickr: #username
+  tumblr: #username
+  pinterest: #username
+  weibo: #userid
+  google:
+    plus: aryanet
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
