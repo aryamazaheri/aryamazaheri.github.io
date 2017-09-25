@@ -52,7 +52,7 @@ owner:
   weibo: #userid
   google:
     plus: aryanet
-    analytics:
+    analytics: UA-106979933-1
     verify:
     ad-client:
     ad-slot:
